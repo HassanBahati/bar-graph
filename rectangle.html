@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bar Graphh</title>
-    <script>
-        //draws a rectangle on canvas
-        function draw() {
-            var canvas = document.getElementById('myCanvas');
-           //cxt draws on canvas
-            var ctx = canvas.getContext('2d');
-            //dimesions of rectangle
-            var X = 0;
-            var Y = 0;
-            var width = 100;
-            var height = 100;  
-            ctx.fillStyle = '#fffff';
-            ctx.fillRect(X, Y, width, height);
-        }
-    </script>
 </head>
 <body onload="draw()">
     <canvas id="myCanvas" height="300px" width="300px"></canvas>
 </body>
+<script>
+    //draws a rectangle on canvas
+    function draw() {
+        var canvas = document.getElementById('myCanvas');
+       //cxt draws on canvas
+        var ctx = canvas.getContext('2d');
+        //dimesions of rectangle
+        var X = 0;
+        var Y = 0;
+        var width = 100;
+        var height = 100;  
+        ctx.fillStyle = '#fffff';
+        ctx.fillRect(X, Y, width, height);
+    }
+</script>
 </html>
